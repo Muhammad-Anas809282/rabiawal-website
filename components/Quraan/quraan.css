@@ -1,0 +1,369 @@
+
+/*Quraan Section */
+
+/* Support Section */
+.khadijah-support {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.support-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.support-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.support-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.support-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.support-text {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.support-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 15px;
+}
+
+.support-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.support-quote {
+  background: #fdeaea;
+  border-left: 4px solid #e74c3c;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.support-quote p {
+  color: #b33a3a;
+  margin-bottom: 5px;
+}
+
+.support-quote span {
+  font-size: 12px;
+  color: #b33a3a;
+}
+
+/* Guidance Section */
+.guidance-mission {
+  background: #f8fdfb;
+  padding: 40px 20px;
+  border-radius: 14px;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.guidance-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.guidance-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.guidance-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.guidance-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-circle.yellow { background: #f5a623; }
+.icon-circle.green { background: #0f9960; }
+.icon-circle.blue { background: #3f80e0; }
+
+.guidance-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+}
+
+.guidance-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .support-text {
+    padding-left: 0;
+  }
+  .guidance-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+.quran-miracle {
+  background: #fff8f0;
+  padding: 50px 20px;
+  border-radius: 16px;
+  width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.quran-miracle-title {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.quran-miracle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.quran-miracle-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.quran-miracle-card:hover {
+  transform: translateY(-5px);
+}
+
+.quran-miracle-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.quran-miracle-icon.yellow { background: #f5a623; }
+.quran-miracle-icon.green { background: #0f9960; }
+.quran-miracle-icon.blue { background: #3f80e0; }
+.quran-miracle-icon.pink { background: #e74c3c; }
+
+.quran-miracle-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.quran-miracle-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive Padding */
+@media (max-width: 768px) {
+  .quran-miracle {
+    padding: 30px 15px;
+  }
+}
+
+
+
+.quran-treasures {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.quran-treasures-title {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 25px;
+}
+
+.quran-treasures-card {
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.quran-arabic {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.quran-treasures-card p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.quran-treasures-card span {
+  font-size: 14px;
+  display: block;
+}
+
+/* Color Variants */
+.dark-green {
+  background: #025b3a;
+  color: white;
+}
+.dark-green span {
+  color: #ffc107;
+}
+
+.light-blue {
+  background: #f3f8ff;
+  color: #1e3a8a;
+  border: 1px solid #d6e4ff;
+}
+
+.light-yellow {
+  background: #fffaf0;
+  color: #7a3e00;
+  border: 1px solid #f9e5b0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quran-treasures {
+    padding: 30px 15px;
+  }
+  .quran-treasures-card {
+    padding: 20px;
+  }
+}
+
+
+.living-miracle {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.living-miracle-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.living-miracle-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.living-miracle-text {
+  flex: 1;
+  text-align: left;
+}
+
+.living-miracle-text h2 {
+  color: #064b33;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.living-miracle-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.living-miracle-quote {
+  background: #e6f7ee;
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.living-miracle-quote span {
+  display: block;
+  font-size: 14px;
+  color: #064b33;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .living-miracle-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .living-miracle-image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .living-miracle-text {
+    text-align: center;
+  }
+}

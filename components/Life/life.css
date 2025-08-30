@@ -1,0 +1,527 @@
+/*yaha sey birth ka kaam st hay */
+
+.contact-header1 {
+background-image:linear-gradient(hsl(152deg 93% 7% / 76%), rgba(0, 0, 0, 0.4)), url(../../images/birth.jpg);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+.blessed-birth {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.birth-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.birth-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.birth-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.birth-date,
+.birth-location {
+  color: #d19d47;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.birth-desc {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+.birth-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.birth-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.birth-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+/* Childhood Section */
+.childhood-container {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.childhood-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #064b33;
+  margin-bottom: 20px;
+}
+
+.childhood-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.child-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.child-box:hover {
+  transform: translateY(-5px);
+}
+
+.child-box h4 {
+  margin-bottom: 10px;
+  color: #064b33;
+}
+
+
+
+.blessed-birth-rev {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.birth-top-rev {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.birth-image-wrap-rev {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.birth-image-rev {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.birth-image-rev:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.birth-text-rev {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.birth-heading-rev {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.birth-date-rev,
+.birth-location-rev {
+  color: #d19d47;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.birth-desc-rev {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+
+.colour-box {
+  background: #e6f7f4;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+  width: 600px;
+  margin-left: 600px;
+  border-left:2px solid  green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .birth-top-rev {
+    flex-direction: column;
+    text-align: center;
+  }
+  .birth-text-rev {
+    padding-left: 0;
+  }
+}
+
+/*yaha sey prophethood ka kaam st hay */
+
+.contact-header-prophet{
+background-image: url(./images/contact.png);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+.contact-quote-prophet{
+  background-color: #357759;
+;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.prophethood-section {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.prophethood-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.prophethood-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.prophethood-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.prophethood-location {
+  color: #0f9960;
+  font-size: 15px;
+  margin: 5px 0 15px;
+}
+
+.prophethood-desc {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+.first-command-box {
+  background: #fff5e1;
+  border-left: 4px solid #d19d47;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.first-command-box h4 {
+  color: #d19d47;
+  margin-bottom: 8px;
+}
+
+.first-command-box p {
+  color: #444;
+  font-size: 15px;
+}
+
+.prophethood-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.prophethood-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.prophethood-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .prophethood-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .prophethood-text {
+    padding-right: 0;
+  }
+}
+
+
+
+.momentous-event {
+  background: #f0fcf9;
+  padding: 50px 20px;
+  border-radius: 14px;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.momentous-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 20px;
+}
+
+.momentous-icon {
+  width: 50px;
+  height: 50px;
+  background: #f5a623;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 25px;
+  font-size: 22px;
+  color: white;
+}
+
+.momentous-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.momentous-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.momentous-inner-card {
+  background: #00503c;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.arabic-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.translation-text {
+  color: #f5c76f;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.verse-ref {
+  font-size: 13px;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .momentous-card {
+    padding: 20px;
+  }
+  .arabic-text {
+    font-size: 18px;
+  }
+}
+
+
+
+/* Support Section */
+.khadijah-support {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.support-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.support-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.support-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.support-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.support-text {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.support-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 15px;
+}
+
+.support-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.support-quote {
+  background: #fdeaea;
+  border-left: 4px solid #e74c3c;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.support-quote p {
+  color: #b33a3a;
+  margin-bottom: 5px;
+}
+
+.support-quote span {
+  font-size: 12px;
+  color: #b33a3a;
+}
+
+/* Guidance Section */
+.guidance-mission {
+  background: #f8fdfb;
+  padding: 40px 20px;
+  border-radius: 14px;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.guidance-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.guidance-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.guidance-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.guidance-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-circle.yellow { background: #f5a623; }
+.icon-circle.green { background: #0f9960; }
+.icon-circle.blue { background: #3f80e0; }
+
+.guidance-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+}
+
+.guidance-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .support-text {
+    padding-left: 0;
+  }
+  .guidance-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
